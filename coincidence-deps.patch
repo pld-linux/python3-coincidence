@@ -1,0 +1,11 @@
+--- coincidence-0.6.5/pyproject.toml.orig	2023-04-12 00:50:28.706720000 +0200
++++ coincidence-0.6.5/pyproject.toml	2023-10-20 20:11:32.059831150 +0200
+@@ -14,7 +14,7 @@ dependencies = [
+     "domdf-python-tools>=2.8.0",
+     "pytest>=6.2.0",
+     "pytest-regressions>=2.0.2",
+-    "typing-extensions>=3.7.4.3",
++    "typing-extensions>=3.7.4.3; python_version<'3.8'",
+ ]
+ classifiers = [
+     "Development Status :: 4 - Beta",
