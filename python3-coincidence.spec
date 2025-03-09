@@ -38,7 +38,7 @@ Funkcje pomocnicze dla pytesta.
 
 %prep
 %setup -q -n coincidence-%{version}
-%patch0 -p1
+%patch -P 0 -p1
 
 cat >setup.py <<EOF
 from setuptools import setup
