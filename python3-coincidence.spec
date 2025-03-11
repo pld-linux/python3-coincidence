@@ -6,7 +6,7 @@ Summary:	Helper functions for pytest
 Summary(pl.UTF-8):	Funkcje pomocnicze dla pytesta
 Name:		python3-coincidence
 Version:	0.6.5
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/coincidence/
